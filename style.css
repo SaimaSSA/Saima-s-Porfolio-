@@ -1,5 +1,5 @@
 /* =========================
-   GLOBAL / RESET....
+GLOBAL / RESET....
 ========================= */
 * {
   box-sizing: border-box;
@@ -8,8 +8,8 @@
 body {
   margin: 0;
   font-family: 'Montserrat', Arial, sans-serif;
-  background-color: #0b0c1a;
-  color: #f0f0f0;
+  background-color: #fef7f2;
+  color: #e487a9;
   background-image: url("starry_sun.jpg");
   background-size: cover;
   background-repeat: repeat-y;
@@ -17,10 +17,10 @@ body {
 }
 
 /* =========================
-   NAVBAR
+NAVBAR
 ========================= */
 .navbar {
-  background-color: #1b1d3a;
+  background-color: #ffd9ea;
   padding: 1em 2em;
   display: flex;
   justify-content: space-between;
@@ -40,17 +40,17 @@ body {
 }
 
 .navbar-right a {
-  color: white;
+  color: #e487a9;
   text-decoration: none;
   font-weight: bold;
 }
 
 .navbar-right a:hover {
-  color: #aaaaff;
+  color: #ffaacc;
 }
 
 /* =========================
-   PAGE LAYOUT
+PAGE LAYOUT
 ========================= */
 .home-card {
   max-width: 1200px;
@@ -59,20 +59,21 @@ body {
 }
 
 /* =========================
-   CARDS
+CARDS
 ========================= */
 .resource-card {
-  background-color: rgba(28, 31, 47, 0.95);
+  background-color: #ffd9ea;
   margin: 2em auto;
   padding: 1.5em;
   border-radius: 12px;
-  box-shadow: 0 0 12px rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 12px #e487a9;
 }
 
 /* =========================
-   BIO SECTION
+BIO SECTION
 ========================= */
 .bio {
+  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -81,24 +82,25 @@ body {
 
 .bio-pic img {
   width: 150px;
-  height: 150px;
+  height: 190px;
   border-radius: 50%;
-  border: 3px solid #5555aa;
-  object-fit: cover;
+  border: 3px solid #ffbee2;
+  object-fit: fit;
 }
 
 .bio-text h1 {
   margin-bottom: 0.2em;
+  
 }
 
 .bio-text h4 {
   margin-top: 0;
   font-weight: normal;
-  color: #ccccff;
+  color: #e487a9;
 }
 
 /* =========================
-   PROJECT LAYOUT
+PROJECT LAYOUT
 ========================= */
 .project {
   display: flex;
@@ -117,23 +119,23 @@ body {
 
 .reflection {
   flex: 1;
-  background-color: rgba(255, 255, 255, 0.04);
+  background-color: ;
   padding: 1em;
   border-radius: 8px;
 }
 
 .reflection h3 {
   margin-top: 0;
-  color: #aaaaff;
+  color: #e487a9;
 }
 
 .reflection p {
   font-size: 0.95em;
-  color: #dddddd;
+  color: #e487a9;
 }
 
 /* =========================
-   LINKS / ICONS
+LINKS / ICONS
 ========================= */
 .skill-images {
   display: flex;
@@ -159,16 +161,16 @@ body {
 }
 
 /* =========================
-   FOOTER
+FOOTER
 ========================= */
 footer {
   text-align: center;
   font-size: 0.85em;
-  color: #cccccc;
+  color: #e487a9;
 }
 
 /* =========================
-   RESPONSIVE
+RESPONSIVE
 ========================= */
 @media (max-width: 900px) {
   .project {
